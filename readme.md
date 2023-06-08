@@ -1,7 +1,7 @@
 # How carry out a task
 
 - Make new Branch
-`git branch whatever`
+`git branch newbranch`
 
 - Checkout to new branch
 `git checkout newbranch`
