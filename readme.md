@@ -16,3 +16,13 @@
 
 - push 
 `git push -u origin newbranch`
+
+## Pull request in github
+## Checkout to  branch master
+`git checkout master`
+
+## merge to master
+`git merge newbranch`
+
+## Delete newbranch
+`git branch -d newbranch`
