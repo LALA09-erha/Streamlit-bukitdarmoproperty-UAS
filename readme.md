@@ -1,3 +1,8 @@
+# Informasi Tentang Folder
+- `Training Model`  Untuk Semua File Perhitungan Training Model
+- `Model` Untuk Semua File Model Hasil Training Model
+- `Data` Untuk Semua File Data Pelatihan Model
+
 # How carry out a task
 
 - Make new Branch
