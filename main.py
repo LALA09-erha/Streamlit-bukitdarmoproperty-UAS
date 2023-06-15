@@ -72,12 +72,12 @@ with tab3:
     if radio == 'MinMax':
         # Menampilkan dataTrainingMinMax.csv
         st.markdown("<h1 style='text-align: center; color: white; margin:0 ; padding:0;'>Data Training MinMax</h1>", unsafe_allow_html=True)
-        dataset = pd.read_csv("Data\dataTrainingMinMax.csv")
+        dataset = pd.read_csv("Data/dataTrainingMinMax.csv")
         data = dataset.head(5)
         st.table(data.style.set_properties(**{'text-align': 'center'}))
     else:
         st.markdown("<h1 style='text-align: center; color: white; margin:0 ; padding:0;'>Data Training PCA n_component=1</h1>", unsafe_allow_html=True)
-        dataset = pd.read_csv("Data\dataTrainingPCA.csv")
+        dataset = pd.read_csv("Data/dataTrainingPCA.csv")
         data = dataset.head(5)
         st.table(data.style.set_properties(**{'text-align': 'center'}))
 
@@ -88,7 +88,7 @@ with tab3:
 with tab4:
     # memanggil data Mape dari file csv
     st.markdown("<h1 style='text-align: center; color: white; margin:0 ; padding:0;'>Model Dengan MAPE Terkecil</h1>", unsafe_allow_html=True)
-    dataset = pd.read_csv("Data\dataMAPE.csv")
+    dataset = pd.read_csv("Data/dataMAPE.csv")
     radio = st.radio("",( "K-Neighbors Regressor  (K=27)", "Decission Tree (depth=3)",'Random Forest Regressor (depth=2)'))
     # jika radio button volume maka akan menampilkan data volume
     if radio == 'K-Neighbors Regressor  (K=27)':
@@ -98,7 +98,7 @@ with tab4:
         st.success(f"MAPE : {data['mape'].values[0]} dengan K = 27 dan n_steps = 4")
 
         st.markdown("<p style='text-align: center; color: white; margin:0 ; padding:0;'>Contoh Data dengan n_steps 4 yang sudah di MinMax</p>", unsafe_allow_html=True)
-        dataset = pd.read_csv("Data\dataN4.csv")
+        dataset = pd.read_csv("Data/dataN4.csv")
         dataset = dataset.drop(['Unnamed: 0'], axis=1)
         data = dataset.head(10)
         st.table(data.style.set_properties(**{'text-align': 'center'}))
