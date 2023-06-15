@@ -63,8 +63,8 @@ with tab2:
 with tab3:
     # membuat radio button untuk memilih data dari preprocessing
     st.markdown("<h1 style='text-align: center; color: white; margin:0 ; padding:0;'>Preprosessing Data</h1>", unsafe_allow_html=True)
-    n8 = 'https://github.com/LALA09-erha/kolaborasipro/blob/master/Training%20Model/trainingModelBeerr.ipynb'
-    n9 = 'https://github.com/LALA09-erha/kolaborasipro/blob/master/Training%20Model/trainingModelBeerr2.ipynb'
+    n8 = 'https://github.com/LALA09-erha/Streamlit-bukitdarmoproperty-UAS/blob/master/Training%20Model/trainingModelPTMinMax2.ipynb'
+    n9 = 'https://github.com/LALA09-erha/Streamlit-bukitdarmoproperty-UAS/blob/master/Training%20Model/trainingModelPTPCA2.ipynb'
 
     st.info("[Percobaan model pertama](%s) | [Percobaan model Kedua](%s) " % (n8,n9),icon="ℹ️")        
     radio = st.radio("",('MinMax', "Reduce Dimension"))
