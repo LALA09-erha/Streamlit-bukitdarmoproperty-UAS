@@ -72,7 +72,7 @@ with tab3:
     if radio == 'MinMax':
         # Menampilkan dataTrainingMinMax.csv
         st.markdown("<h1 style='text-align: center; color: white; margin:0 ; padding:0;'>Data Training MinMax</h1>", unsafe_allow_html=True)
-        dataset = pd.read_csv("Data/dataTrainingMinMax.csv")
+        dataset = pd.read_csv("Data/dataTrainingMinmax.csv")
         data = dataset.head(5)
         st.table(data.style.set_properties(**{'text-align': 'center'}))
     else:
