@@ -51,7 +51,7 @@ with tab1:
 with tab2:
     # Menampilkan data BPDPJK.csv
     st.markdown("<h1 style='text-align: center; color: white; margin:0 ; padding:0;'>Data Saham Bukit Darmon Property</h1>", unsafe_allow_html=True)
-    dataset = pd.read_csv("Data\BKDP.JK.csv")
+    dataset = pd.read_csv("Data/BKDP.JK.csv")
     data = dataset.tail(10)
     st.table(data.style.set_properties(**{'text-align': 'center'}))
     st.markdown("<h1 style='text-align: center; color: white; margin:0 ; padding:0;'>Data Terpakai</h1>", unsafe_allow_html=True)
