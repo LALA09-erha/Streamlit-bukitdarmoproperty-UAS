@@ -88,7 +88,7 @@ with tab3:
 with tab4:
     # memanggil data Mape dari file csv
     st.markdown("<h1 style='text-align: center; color: white; margin:0 ; padding:0;'>Model Dengan MAPE Terkecil</h1>", unsafe_allow_html=True)
-    dataset = pd.read_csv("Data/dataMAPE.csv")
+    dataset = pd.read_csv("Data/dataMape.csv")
     radio = st.radio("",( "K-Neighbors Regressor  (K=27)", "Decission Tree (depth=3)",'Random Forest Regressor (depth=2)'))
     # jika radio button volume maka akan menampilkan data volume
     if radio == 'K-Neighbors Regressor  (K=27)':
