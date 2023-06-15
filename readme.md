@@ -1,7 +1,8 @@
 # Informasi Tentang Folder
 - `Training Model`  Untuk Semua File Perhitungan Training Model
-- `Model` Untuk Semua File Model Hasil Training Model
-- `Data` Untuk Semua File Data Pelatihan Model
+- `Eksekusi Model` Untuk Semua File Model Hasil Training Model Yang Sudah Di Eksekusi dan untuk mengeksekusi model
+- `Data` Untuk Semua File Data Pelatihan Model,prediksi dan data lainnya
+- `main.py` Untuk Menjalankan Program Utama
 
 # How carry out a task
 
